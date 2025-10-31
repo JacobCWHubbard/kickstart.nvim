@@ -1,8 +1,8 @@
 return {
   'GCBallesteros/jupytext.nvim',
   opts = {
-    style = 'hydrogen',
-    output_extension = 'auto',
-    force_ft = nil,
+    style = 'markdown',
+    output_extension = 'md',
+    force_ft = 'markdown',
   },
 }
